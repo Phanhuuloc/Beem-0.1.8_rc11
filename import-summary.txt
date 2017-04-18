@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .hg_archival.txt
+* .hgignore
+* .hgtags
+* .idea/
+* .idea/Beem-0.1.8_rc1.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/markdown-navigator/
+* .idea/markdown-navigator/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* COPYING
+* CREDITS
+* INSTALL
+* README
+* build.xml
+* doc/
+* doc/Logging.txt
+* doc/UmlGraph.jar
+* doc/android/
+* doc/android/package-list
+* doc/asmack-beem/
+* doc/asmack-beem/README.txt
+* doc/asmack-beem/beem_patches/
+* doc/asmack-beem/beem_patches/10-PubSubManager-non-final.patch
+* doc/asmack-beem/beem_patches/50-improved-pubsub.patch
+* doc/asmack-beem/beem_patches/COPYING
+* doc/asmack-beem/beem_patches/README.txt
+* doc/favicon.ico
+* doc/smack/
+* doc/smack/package-list
+* tools/
+* tools/JavaHeaderCheck.regex
+* tools/LicenseHeader.txt
+* tools/README
+* tools/checkstyle.xml
+* tools/eclipse_formatter.xml
+* tools/getFreeXmppServices.py
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => app/libs/android-support-v13.jar
+* libs/asmack-android-16-beem.jar => app/libs/asmack-android-16-beem.jar
+* libs/lcrypto-jdk16-146-20110415.jar => app/libs/lcrypto-jdk16-146-20110415.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/com/beem/project/beem/service/Contact.aidl => app/src/main/aidl/com/beem/project/beem/service/Contact.aidl
+* src/com/beem/project/beem/service/Message.aidl => app/src/main/aidl/com/beem/project/beem/service/Message.aidl
+* src/com/beem/project/beem/service/PresenceAdapter.aidl => app/src/main/aidl/com/beem/project/beem/service/PresenceAdapter.aidl
+* src/com/beem/project/beem/service/PrivacyListItem.aidl => app/src/main/aidl/com/beem/project/beem/service/PrivacyListItem.aidl
+* src/com/beem/project/beem/service/UserInfo.aidl => app/src/main/aidl/com/beem/project/beem/service/UserInfo.aidl
+* src/com/beem/project/beem/service/aidl/IBeemConnectionListener.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IBeemConnectionListener.aidl
+* src/com/beem/project/beem/service/aidl/IBeemRosterListener.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IBeemRosterListener.aidl
+* src/com/beem/project/beem/service/aidl/IChat.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IChat.aidl
+* src/com/beem/project/beem/service/aidl/IChatManager.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IChatManager.aidl
+* src/com/beem/project/beem/service/aidl/IChatManagerListener.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IChatManagerListener.aidl
+* src/com/beem/project/beem/service/aidl/IContact.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IContact.aidl
+* src/com/beem/project/beem/service/aidl/IMessageListener.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IMessageListener.aidl
+* src/com/beem/project/beem/service/aidl/IPrivacyListListener.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IPrivacyListListener.aidl
+* src/com/beem/project/beem/service/aidl/IPrivacyListManager.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IPrivacyListManager.aidl
+* src/com/beem/project/beem/service/aidl/IRoster.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IRoster.aidl
+* src/com/beem/project/beem/service/aidl/IXmppConnection.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IXmppConnection.aidl
+* src/com/beem/project/beem/service/aidl/IXmppFacade.aidl => app/src/main/aidl/com/beem/project/beem/service/aidl/IXmppFacade.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
